@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.editor {
+    /* text-shadow: 0 0 1px #1e1e1e, 0 0 2px #1e1e1eee, 0 0 4px #1e1e1ecc, 0 0 8px #1e1e1e99; */
+    text-shadow: -1px -1px #1e1e1e, -1px 0 #1e1e1e, -1px 1px #1e1e1e, 0 -1px #1e1e1e, 0 1px #1e1e1e, 1px -1px #1e1e1e, 1px 0 #1e1e1e, 1px 1px #1e1e1e;
+    opacity: 1;
+}
+
+.editor.hidden {
+    opacity: 0;
+    transition: opacity ease-in-out 100ms;
+    cursor: pointer;
+}
+
+.decorationsOverviewRuler {
+    display: none !important;
+}

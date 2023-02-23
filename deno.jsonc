@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "deno.window",
+      "dom"
+    ]
+  },
+  "imports": {
+    "esbuild_serve": "https://deno.land/x/esbuild_serve@1.2.1/mod.ts",
+    "@monaco-editor/react": "https://esm.sh/@monaco-editor/react@4.4.6",
+    "react-dom": "https://esm.sh/react-dom@18.2.0/client",
+    "react": "https://esm.sh/react@18.2.0",
+    "std/": "https://deno.land/std@0.177.0/"
+  }
+}
